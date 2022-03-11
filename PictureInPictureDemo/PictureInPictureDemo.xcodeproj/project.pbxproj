@@ -19,6 +19,9 @@
 		579703C627DB2363000BB94A /* PictureInPictureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579703C527DB2363000BB94A /* PictureInPictureDemoUITests.m */; };
 		579703C827DB2363000BB94A /* PictureInPictureDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579703C727DB2363000BB94A /* PictureInPictureDemoUITestsLaunchTests.m */; };
 		579703D827DB28CB000BB94A /* NSData+FE.m in Sources */ = {isa = PBXBuildFile; fileRef = 579703D727DB28CB000BB94A /* NSData+FE.m */; };
+		579703DC27DB392E000BB94A /* AvPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579703DB27DB392E000BB94A /* AvPlayViewController.m */; };
+		579703E027DB394E000BB94A /* SoureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 579703DF27DB394E000BB94A /* SoureModel.m */; };
+		579703E327DB51E2000BB94A /* IJKPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579703E227DB51E2000BB94A /* IJKPlayViewController.m */; };
 		5DA2687C03EAA2C347B2BC7D /* Pods_PictureInPictureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B6266A4B70B16B844D0BE3 /* Pods_PictureInPictureDemo.framework */; };
 		600B5700713FD362F1C72203 /* Pods_PictureInPictureDemo_PictureInPictureDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1E8E3D26F744A2E14B9CB /* Pods_PictureInPictureDemo_PictureInPictureDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +67,12 @@
 		579703D527DB28CB000BB94A /* AESKeyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESKeyHeader.h; sourceTree = "<group>"; };
 		579703D627DB28CB000BB94A /* NSData+FE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FE.h"; sourceTree = "<group>"; };
 		579703D727DB28CB000BB94A /* NSData+FE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+FE.m"; sourceTree = "<group>"; };
+		579703DA27DB392E000BB94A /* AvPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvPlayViewController.h; sourceTree = "<group>"; };
+		579703DB27DB392E000BB94A /* AvPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvPlayViewController.m; sourceTree = "<group>"; };
+		579703DE27DB394E000BB94A /* SoureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoureModel.h; sourceTree = "<group>"; };
+		579703DF27DB394E000BB94A /* SoureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoureModel.m; sourceTree = "<group>"; };
+		579703E127DB51E2000BB94A /* IJKPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJKPlayViewController.h; sourceTree = "<group>"; };
+		579703E227DB51E2000BB94A /* IJKPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKPlayViewController.m; sourceTree = "<group>"; };
 		6719C650219BB04145D1A72B /* Pods-PictureInPictureDemo-PictureInPictureDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureInPictureDemo-PictureInPictureDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PictureInPictureDemo-PictureInPictureDemoUITests/Pods-PictureInPictureDemo-PictureInPictureDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7925E271D27CE401F022FD90 /* Pods-PictureInPictureDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureInPictureDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PictureInPictureDemoTests/Pods-PictureInPictureDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8964CD442D5D4DDB7D96CF57 /* Pods-PictureInPictureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureInPictureDemo.release.xcconfig"; path = "Target Support Files/Pods-PictureInPictureDemo/Pods-PictureInPictureDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +134,8 @@
 		5797039E27DB2360000BB94A /* PictureInPictureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				579703DD27DB393B000BB94A /* Model */,
+				579703D927DB38F2000BB94A /* controller */,
 				579703D427DB28CB000BB94A /* Util */,
 				5797039F27DB2360000BB94A /* AppDelegate.h */,
 				579703A027DB2360000BB94A /* AppDelegate.m */,
@@ -166,6 +177,26 @@
 				579703D727DB28CB000BB94A /* NSData+FE.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		579703D927DB38F2000BB94A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				579703DA27DB392E000BB94A /* AvPlayViewController.h */,
+				579703DB27DB392E000BB94A /* AvPlayViewController.m */,
+				579703E127DB51E2000BB94A /* IJKPlayViewController.h */,
+				579703E227DB51E2000BB94A /* IJKPlayViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		579703DD27DB393B000BB94A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				579703DE27DB394E000BB94A /* SoureModel.h */,
+				579703DF27DB394E000BB94A /* SoureModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7D8D777610B6263FB2268765 /* Pods */ = {
@@ -470,6 +501,9 @@
 				579703B227DB2362000BB94A /* main.m in Sources */,
 				579703D827DB28CB000BB94A /* NSData+FE.m in Sources */,
 				579703A427DB2360000BB94A /* SceneDelegate.m in Sources */,
+				579703E327DB51E2000BB94A /* IJKPlayViewController.m in Sources */,
+				579703DC27DB392E000BB94A /* AvPlayViewController.m in Sources */,
+				579703E027DB394E000BB94A /* SoureModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
