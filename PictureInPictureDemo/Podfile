@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PictureInPictureDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PictureInPictureDemo
+  # 视频播放及控制
+  pod 'ZFPlayer', '~> 4.0'
+  pod 'ZFPlayer/ControlView', '~> 4.0'
+  pod 'ZFPlayer/AVPlayer', '~> 4.0'
+  pod 'ZFPlayer/ijkplayer', '~> 4.0'
+  # 内嵌代理服务器用于解密视频
+  pod "GCDWebServer", "~> 3.0"
+  pod "GCDWebServer/WebUploader", "~> 3.0"
+  pod "GCDWebServer/WebDAV", "~> 3.0"
+
+  target 'PictureInPictureDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PictureInPictureDemoUITests' do
+    # Pods for testing
+  end
+
+end
