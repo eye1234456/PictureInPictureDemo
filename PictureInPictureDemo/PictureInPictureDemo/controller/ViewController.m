@@ -2,13 +2,12 @@
 //  ViewController.m
 //  PictureInPictureDemo
 //
-//  Created by Flow on 3/11/22.
+//  Created by eye on 3/11/22.
 //
 
 #import "ViewController.h"
 #import "SoureModel.h"
-#import "AvPlayViewController.h"
-#import "IJKPlayViewController.h"
+#import "PlayViewController.h"
 
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic, strong) UITableView *tableView;
@@ -58,15 +57,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     SoureModel *model = self.dataList[indexPath.row];
-    if (model.playerType == playerTypeAvPlayer) {
-        AvPlayViewController *vc = [AvPlayViewController new];
-        vc.model = model;
-        [self.navigationController pushViewController:vc animated:YES];
-    }else {
-        IJKPlayViewController *vc = [IJKPlayViewController new];
-        vc.model = model;
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+    PlayViewController *vc = [PlayViewController new];
+    vc.model = model;
+    [self.navigationController pushViewController:vc animated:YES];
     
 }
 
