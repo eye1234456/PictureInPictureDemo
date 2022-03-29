@@ -22,13 +22,17 @@
     // avplayer
     [self.dataList addObject:[SoureModel modelWithTitle:@"avplayer-mp4-未加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/originVideo/1.mp4" isEncrypt:NO playerType:playerTypeAvPlayer]];
     [self.dataList addObject:[SoureModel modelWithTitle:@"avplayer-m3u8-未加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/originVideo/big_buck_bunny/index.m3u8" isEncrypt:NO playerType:playerTypeAvPlayer]];
+    [self.dataList addObject:[SoureModel modelWithTitle:@"avplayer-webm-未加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/originVideo/webm/1.webm" isEncrypt:NO playerType:playerTypeAvPlayer]];
     [self.dataList addObject:[SoureModel modelWithTitle:@"avplayer-mp4-加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/encryptVideo/1.mp4" isEncrypt:YES playerType:playerTypeAvPlayer]];
     [self.dataList addObject:[SoureModel modelWithTitle:@"avplayer-m3u8-加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/encryptVideo/big_buck_bunny/index.m3u8" isEncrypt:YES playerType:playerTypeAvPlayer]];
+    [self.dataList addObject:[SoureModel modelWithTitle:@"avplayer-webm-加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/encryptVideo/webm/1.webm" isEncrypt:YES playerType:playerTypeAvPlayer]];
     // ijkplayer
     [self.dataList addObject:[SoureModel modelWithTitle:@"ijkplayer-mp4-未加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/originVideo/1.mp4" isEncrypt:NO playerType:playerTypeIJKPlayer]];
     [self.dataList addObject:[SoureModel modelWithTitle:@"ijkplayer-m3u8-未加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/originVideo/big_buck_bunny/index.m3u8" isEncrypt:NO playerType:playerTypeIJKPlayer]];
+    [self.dataList addObject:[SoureModel modelWithTitle:@"ijkplayer-webm-未加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/originVideo/webm/1.webm" isEncrypt:NO playerType:playerTypeIJKPlayer]];
     [self.dataList addObject:[SoureModel modelWithTitle:@"ijkplayer-mp4-加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/encryptVideo/1.mp4" isEncrypt:YES playerType:playerTypeIJKPlayer]];
     [self.dataList addObject:[SoureModel modelWithTitle:@"ijkplayer-m3u8-加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/encryptVideo/big_buck_bunny/index.m3u8" isEncrypt:YES playerType:playerTypeIJKPlayer]];
+    [self.dataList addObject:[SoureModel modelWithTitle:@"ijkplayer-webm-加密" url:@"https://raw.githubusercontent.com/eye1234456/PictureInPictureDemo/main/video/encryptVideo/webm/1.webm" isEncrypt:YES playerType:playerTypeIJKPlayer]];
     
     [self.tableView reloadData];
 }
