@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 - (void)start;
 + (NSURL *)proxyUrl:(NSString *)url;
++ (NSURL *)davProxyUrl:(NSString *)url;
 @end
 
 NS_ASSUME_NONNULL_END

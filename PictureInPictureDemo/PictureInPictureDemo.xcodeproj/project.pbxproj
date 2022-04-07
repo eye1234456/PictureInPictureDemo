@@ -25,6 +25,7 @@
 		57ACFB9227DF25090024A564 /* WebServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACFB9127DF25090024A564 /* WebServerManager.m */; };
 		57ACFB9527DF29230024A564 /* KeepAwakManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACFB9427DF29230024A564 /* KeepAwakManager.m */; };
 		57ACFB9727DF2A5E0024A564 /* PIPSilence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57ACFB9627DF2A5E0024A564 /* PIPSilence.wav */; };
+		57BC4DC227F53801005C87D1 /* countdown.webm in Resources */ = {isa = PBXBuildFile; fileRef = 57BC4DC127F53801005C87D1 /* countdown.webm */; };
 		5DA2687C03EAA2C347B2BC7D /* Pods_PictureInPictureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B6266A4B70B16B844D0BE3 /* Pods_PictureInPictureDemo.framework */; };
 		600B5700713FD362F1C72203 /* Pods_PictureInPictureDemo_PictureInPictureDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1E8E3D26F744A2E14B9CB /* Pods_PictureInPictureDemo_PictureInPictureDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		57ACFB9327DF29230024A564 /* KeepAwakManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeepAwakManager.h; sourceTree = "<group>"; };
 		57ACFB9427DF29230024A564 /* KeepAwakManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepAwakManager.m; sourceTree = "<group>"; };
 		57ACFB9627DF2A5E0024A564 /* PIPSilence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PIPSilence.wav; sourceTree = "<group>"; };
+		57BC4DC127F53801005C87D1 /* countdown.webm */ = {isa = PBXFileReference; lastKnownFileType = file; name = countdown.webm; path = ../../../video/originVideo/webm/countdown.webm; sourceTree = "<group>"; };
 		6719C650219BB04145D1A72B /* Pods-PictureInPictureDemo-PictureInPictureDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureInPictureDemo-PictureInPictureDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PictureInPictureDemo-PictureInPictureDemoUITests/Pods-PictureInPictureDemo-PictureInPictureDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7925E271D27CE401F022FD90 /* Pods-PictureInPictureDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureInPictureDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PictureInPictureDemoTests/Pods-PictureInPictureDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8964CD442D5D4DDB7D96CF57 /* Pods-PictureInPictureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureInPictureDemo.release.xcconfig"; path = "Target Support Files/Pods-PictureInPictureDemo/Pods-PictureInPictureDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		5797039E27DB2360000BB94A /* PictureInPictureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				57BC4DC027F537DE005C87D1 /* Resource */,
 				579703DD27DB393B000BB94A /* Model */,
 				579703D927DB38F2000BB94A /* controller */,
 				579703D427DB28CB000BB94A /* Util */,
@@ -210,6 +213,14 @@
 				579703DF27DB394E000BB94A /* SoureModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		57BC4DC027F537DE005C87D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				57BC4DC127F53801005C87D1 /* countdown.webm */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		7D8D777610B6263FB2268765 /* Pods */ = {
@@ -345,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BC4DC227F53801005C87D1 /* countdown.webm in Resources */,
 				579703AF27DB2362000BB94A /* LaunchScreen.storyboard in Resources */,
 				579703AC27DB2362000BB94A /* Assets.xcassets in Resources */,
 				57ACFB9727DF2A5E0024A564 /* PIPSilence.wav in Resources */,

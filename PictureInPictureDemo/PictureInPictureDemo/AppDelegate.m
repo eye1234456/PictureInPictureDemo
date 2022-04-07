@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "AESKeyHeader.h"
 #import "NSData+FE.h"
+#import "WebServerManager.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 将未加密数据转换为加密数据
 //    [self createEncryptVideos];
+    [WebServerManager sharedInstance];
     return YES;
 }
 
